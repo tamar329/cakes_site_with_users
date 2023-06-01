@@ -14,7 +14,7 @@ const declareEvents = () => {
         }
         console.log(bodyObj);
 
-        let url = "http://localhost:3002/users";
+        let url = "http://localhost:3000/users";
         fetch(url, {
             method: "POST",
             body: JSON.stringify(bodyObj),

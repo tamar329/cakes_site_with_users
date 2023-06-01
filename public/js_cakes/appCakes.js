@@ -7,7 +7,7 @@ const init = () => {
 }
 
 const doApi = async() => {
-  let url = "http://localhost:3002/cakes";
+  let url = "http://localhost:3000/cakes";
   try{
     let resp = await axios.get(url);
     console.log(resp.data);

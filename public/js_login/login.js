@@ -13,7 +13,7 @@ const declareEvents = () => {
         }
         console.log(bodyObj);
 
-        let url = "http://localhost:3002/users/login";
+        let url = "http://localhost:3000/users/login";
         // let url = "cakes";
         fetch(url, {
             method: "POST",

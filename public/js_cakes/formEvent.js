@@ -15,7 +15,7 @@ export const decalreFormEvent = (_doApi) => {
 
 
 const addNewCake = async (_bodyData, _doApi) => {
-    let myUrl = "http://localhost:3002/cakes"
+    let myUrl = "http://localhost:3000/cakes"
     try {
         let resp = await axios({
             url: myUrl,
